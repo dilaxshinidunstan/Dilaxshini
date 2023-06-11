@@ -10,10 +10,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     exit;
   }
 
-  // Process the form data here
-  // You can perform any desired actions with the form data
-
-  // Send a success response
   http_response_code(200);
   echo "Thank you! Your message has been received.";
 } else {
