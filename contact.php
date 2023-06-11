@@ -12,7 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   http_response_code(200);
   echo "Thank you! Your message has been received.";
-} else {
+} 
+  else {
   http_response_code(405);
   echo "Method Not Allowed";
 }
